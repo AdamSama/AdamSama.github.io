@@ -13,6 +13,27 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
+
+  @media (max-width: 1024px) {
+    .techGrid {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for tablets */
+    }
+}
+
+/* Mobile Landscape */
+@media (max-width: 640px) {
+    .techGrid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for mobile landscape */
+    }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+    .techGrid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile portrait */
+        gap: 15px; /* optionally reduce the gap */
+    }
+}
   
   .techItem {
     display: flex;
