@@ -1,0 +1,27 @@
+.profileCard {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+@media screen and (max-width: 640px) {
+    .profileCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area: 1 / 2 / 2 / 3;
+} }
+  
+  .profileImage {
+    border-radius: 50%;  /* This will make the image rounded */
+    width: 150px;  /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .description {
+    font-family: 'Pacifico', cursive;  /* This will make the font look cute */
+    font-size: 1.2em;
+  }
+  

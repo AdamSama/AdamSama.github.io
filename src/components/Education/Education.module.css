@@ -1,0 +1,65 @@
+.educationSection {
+    background-color: #0F1624;
+    color: #FFFFFF;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #F5C542; /* Gold color for the header */
+    border-bottom: 2px solid #F5C542;
+    padding-bottom: 10px;
+}
+
+.educationEntry {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    border-bottom: 1px solid #555;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .educationEntry {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+} }
+
+.schoolLogo {
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.schoolLogo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.schoolInfo h2 {
+    margin: 0;
+    font-size: 3rem;
+    color: #F5C542; /* Gold color for school name */
+}
+
+.schoolInfo h3 {
+    margin: 10px 0;
+    color: #AAAAAA;
+}
+
+.schoolInfo p {
+    margin: 10px 0;
+}
+
+.schoolInfo ul {
+    padding-left: 20px;
+}
+
+.schoolInfo li {
+    color: #888888;
+    font-family: 'Courier New', Courier, monospace;
+}
