@@ -83,4 +83,4 @@ export const Me = '/images/me.JPG';
 
 export const Workout = '/images/work.jpg';
 
-export const Rave = '/images/rave.JPG';
+export const Rave = '/images/rave.jpg';
